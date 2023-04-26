@@ -1,6 +1,6 @@
 # BitWhales
-BitWhales - web3 portal
+BitWhales minting DAPP
 
-This is is a work in progress.
+This is a work in progress.
 
 Minting DAPP on the CORE and Ethereun Chain
