@@ -1,0 +1,21 @@
+{
+  "name": "bitwhales",
+  "version": "1.0.0",
+  "description": "Minting DaPP",
+  "default": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "0xha910",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "core-js": "^3.30.1",
+    "regenerator-runtime": "^0.13.11"
+  }
+}

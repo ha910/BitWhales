@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  /* margin: 0; */
+}
+
+/* home: */
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 9;
+}
+
+h3 {
+  line-height: 15;
+}
+
+footer {
+  line-height: 10;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(10, 47, 211);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(10, 47, 211);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 0, 0);
+}
+
+.networks {
+  list-style: none;
+}
+
+.info {
+  line-height: 25;
+}
+
+.networks p {
+  text-align: center;
+}
+
+div {
+  width: 75%;
+  border: 2px solid rgb(0, 0, 255);
+  padding: 5px;
+  margin: 1px;
+}
+
+
+/* markets */
+.markets-h1 {
+  text-align: center;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.btn-crypto {
+  align-items: center;
+  background-color: #032302;
+  width: 95%;
+  padding: 2%;
+}
+
+/* about */
+.page {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  font-size: 20px;
+  line-height: 2;
+  text-decoration: underline;
+}
+
