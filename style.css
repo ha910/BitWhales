@@ -64,14 +64,6 @@ a:hover {
   text-align: center;
 }
 
-div {
-  width: 75%;
-  border: 2px solid rgb(0, 0, 255);
-  padding: 5px;
-  margin: 1px;
-}
-
-
 /* markets */
 .markets-h1 {
   text-align: center;
@@ -82,19 +74,34 @@ div {
 .btn-crypto {
   align-items: center;
   background-color: #032302;
-  width: 95%;
+  width: 350px;
   padding: 2%;
 }
 
 /* about */
-.page {
-  text-align: center;
-}
 
-.about {
+.about,
+.about-team {
   text-align: center;
   font-size: 20px;
-  line-height: 2;
+  line-height: 1;
   text-decoration: underline;
 }
 
+.page {
+  width: 75%;
+  border: 2px solid rgb(0, 0, 255);
+  padding: 150px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.creator {
+  text-align: center;
+}
+
+.hair {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
