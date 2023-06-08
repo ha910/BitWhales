@@ -84,6 +84,10 @@ a:hover {
   display: inline-block;
 }
 
+form {
+  margin: 0 auto;
+}
+
 .loader {
   display: none;
   padding: 15px;

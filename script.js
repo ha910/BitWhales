@@ -39,7 +39,7 @@ const cryptoData = async function (id) {
 if (!form) return; //fixed `Cannot read property 'addEventListener' of null` error on index.html
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-  const crypto = input.value;
+  const crypto = input.value.toLowerCase();
   cryptoData(crypto);
   input.value = "";
 });
