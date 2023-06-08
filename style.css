@@ -13,8 +13,6 @@ body {
   background-color: #222;
 }
 
-h1,
-h2,
 h3 {
   text-align: center;
 }
@@ -52,6 +50,13 @@ a:hover {
   color: rgb(255, 0, 0);
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 120px;
+}
+
 .networks {
   list-style: none;
 }
@@ -72,13 +77,23 @@ a:hover {
 }
 
 .btn-crypto {
-  align-items: center;
+  text-align: center;
   background-color: #032302;
   width: 350px;
   padding: 2%;
+  display: inline-block;
+}
+
+.loader {
+  display: none;
+  padding: 15px;
 }
 
 /* about */
+
+.about-header {
+  text-align: center;
+}
 
 .about,
 .about-team {
