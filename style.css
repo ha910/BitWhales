@@ -81,7 +81,17 @@ a:hover {
   background-color: #032302;
   width: 350px;
   padding: 2%;
-  display: inline-block;
+  display: grid;
+  justify-content: center;
+}
+
+.rendered-data {
+  text-align: center;
+}
+
+#crypto {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 form {
@@ -91,6 +101,7 @@ form {
 .loader {
   display: none;
   padding: 15px;
+  text-align: center;
 }
 
 /* about */
